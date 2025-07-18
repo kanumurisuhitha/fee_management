@@ -1,0 +1,76 @@
+/* Set full-screen background image */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: url('https://images.unsplash.com/photo-1549921296-3a3b35e4d44e') no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Center the profile container */
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Card styling */
+.profile-card {
+  background-color: rgba(255, 255, 255, 0.95); /* less transparent for clarity */
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  width: 360px;
+  text-align: left;
+}
+
+/* Title styling */
+.profile-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+/* Field layout */
+.profile-field {
+  display: flex;
+  justify-content: space-between;
+  margin: 12px 0;
+  font-size: 16px;
+  color: #444;
+}
+
+.profile-field label {
+  font-weight: bold;
+  color: #222;
+}
+
+/* Pay Fees Button */
+.pay-btn {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.pay-btn button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.pay-btn button:hover {
+  background-color: #0056b3;
+}
+
+/* Error and loading */
+.error, .loading {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
